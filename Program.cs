@@ -1,10 +1,16 @@
-﻿namespace POE_part1
+﻿using System;
+
+namespace CybersecurityChatbot
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+
+            CybersecurityBot myBot = new CybersecurityBot();
+
+
+            myBot.Start();
         }
     }
 }
