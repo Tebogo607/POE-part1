@@ -28,8 +28,8 @@ namespace CybersecurityChatbot
 
 
             PlayGreeting();
-            ShowLogo();
-            AskForName();
+           // ShowLogo();
+           // AskForName();
         }
         public void PlayGreeting()
         {
