@@ -5,11 +5,11 @@ using System.Threading;
 
 namespace CybersecurityChatbot
 {
-    
-    
+
+
     class Chatbot
     {
-        
+
         public string Name;
         public string UserName;
         public Random RandomGenerator;
@@ -22,11 +22,11 @@ namespace CybersecurityChatbot
         }
         public virtual void Start()
         {
-            
+
             Console.WriteLine("Chatbot is starting...");
             Console.ResetColor();
 
-           
+
             PlayGreeting();
             ShowLogo();
             AskForName();
@@ -51,4 +51,7 @@ namespace CybersecurityChatbot
                 Console.WriteLine("(Voice greeting not available)");
             }
         }
+    }
+
+}
 
