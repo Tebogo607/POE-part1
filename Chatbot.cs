@@ -26,7 +26,7 @@ namespace CybersecurityChatbot
             Console.WriteLine("Chatbot is starting...");
             Console.ResetColor();
 
-
+            //method for the sound
             PlayGreeting();
            // ShowLogo();
            // AskForName();
